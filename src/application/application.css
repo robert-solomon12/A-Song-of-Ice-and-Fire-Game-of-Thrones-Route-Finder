@@ -1,0 +1,57 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+ * {
+    dark-primary-color: #616161;
+    default-primary-color: #696969; 
+    text-primary-color: #212121; 
+    light-primary-color: #F5F5F5; 
+    accent-color: #1E90FF; 
+    primary-text-color: #212121; 
+    gray: #808080;
+    divider-color: #BDBDBD;
+}
+    
+.map-pin1 {
+	-fx-shape: "M13.558,0C6.07,0,0,6.07,0,13.558s13.558,22.346,13.558,22.346s13.558-14.858,13.558-22.346S21.045,0,13.558,0zM13.558,20.762c-4.084,0-7.395-3.311-7.395-7.395s3.311-7.395,7.395-7.395c4.084,0,7.396,3.311,7.396,7.395S17.642,20.762,13.558,20.762z";
+	-fx-background-color: black, white;
+	-fx-background-insets: 0, 2;
+	-fx-effect: dropshadow( two-pass-box, rgba(0, 0, 0, 0.5), 10, 0.0, 0, 10 );
+	-fx-pref-width: 48;
+	-fx-pref-height: 60;
+	
+}
+
+.map-pin1 .arrow-button .arrow {
+	-fx-padding: 0;
+}
+
+
+.map-pin2 {
+	-fx-shape: "M13.558,0C6.07,0,0,6.07,0,13.558s13.558,22.346,13.558,22.346s13.558-14.858,13.558-22.346S21.045,0,13.558,0zM13.558,20.762c-4.084,0-7.395-3.311-7.395-7.395s3.311-7.395,7.395-7.395c4.084,0,7.396,3.311,7.396,7.395S17.642,20.762,13.558,20.762z";
+	-fx-background-color: black, red;
+	-fx-background-insets: 0, 2;
+	-fx-effect: dropshadow( two-pass-box, rgba(0, 0, 0, 0.5), 10, 0.0, 0, 10 );
+	-fx-pref-width: 48;
+	-fx-pref-height: 60;
+	
+}
+
+.map-pin2 .arrow-button .arrow {
+	-fx-padding: 0;
+}
+
+.root {
+    -fx-background-color: default-primary-color;
+
+     -fx-background-radius: 15;
+}
+
+.combo-box {
+	-fx-background-color: gray;
+}
+.button {
+
+    -fx-background-color: gray;
+    -fx-background-radius: 8;
+}
